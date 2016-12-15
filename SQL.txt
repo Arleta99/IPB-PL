@@ -1,0 +1,15 @@
+1. Select * from Custumers
+
+2. SELECT * FROM Customers WHERE Country = 'Germany'
+
+3.  SELECT * FROM OrderDetails WHERE Quantity >10
+
+4. SELECT CustomerName,Quantity FROM Customers, OrderDetails 
+Group by CustomerName
+
+5. SELECT * FROM Customers, OrderDetails 
+WHERE Country = 'Germany'
+Group by Country
+
+
+Arleta Madziar, Przemys³aw £uczyk, Monika Olek
